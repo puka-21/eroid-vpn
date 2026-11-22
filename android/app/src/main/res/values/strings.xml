@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EROID VPN</string>
+    <string name="vpn_running">EROID VPN подключен</string>
+    <string name="vpn_disconnected">Отключено</string>
+    <string name="disconnect">Отключить</string>
+    <string name="connecting">Подключение...</string>
+    <string name="channel_name">EROID VPN Tunnel</string>
+    <string name="channel_desc">Статус и уведомления активного VPN туннеля</string>
+</resources>

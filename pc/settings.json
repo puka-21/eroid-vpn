@@ -1,0 +1,544 @@
+{
+  "sub_url": "",
+  "mode": "Proxy",
+  "dns": "8.8.8.8",
+  "port": 2080,
+  "selected_idx": 0,
+  "hwid": "",
+  "theme": "Void",
+  "core_config": {
+    "log_level": "info",
+    "stack": "mixed",
+    "mtu": 9000,
+    "strict_route": true,
+    "auto_route": true,
+    "utls_fingerprint": "chrome",
+    "enable_geosite_ru": false,
+    "enable_geoip_ru": false,
+    "enable_adblock": false,
+    "custom_bypass_domains": "gosuslugi.ru, sberbank.ru, tbank.ru, yandex.ru, vk.com, avito.ru, ozon.ru"
+  },
+  "nodes": [
+    {
+      "name": "🇩🇪 Германия",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "de.rutrust.org",
+        "server_port": 443,
+        "tag": "🇩🇪 Германия",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "-uIEyNp9q7yJLKP8d-qRclbPQYNIHH5LDcfrfP1NyU4",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "de.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "de.rutrust.org",
+      "port": 443,
+      "ping": 89
+    },
+    {
+      "name": "🇸🇪 Швеция",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "se.rutrust.org",
+        "server_port": 443,
+        "tag": "🇸🇪 Швеция",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "xNJ9W_lSkfN_US9J9eV1e-wREYb6uxcvvnnRcPTAakA",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "se.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "se.rutrust.org",
+      "port": 443,
+      "ping": 90
+    },
+    {
+      "name": "🇫🇲 Авто | Самый быстрый 🔥",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "de.rutrust.org",
+        "server_port": 443,
+        "tag": "🇫🇲 Авто | Самый быстрый 🔥",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "-uIEyNp9q7yJLKP8d-qRclbPQYNIHH5LDcfrfP1NyU4",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "de.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "de.rutrust.org",
+      "port": 443,
+      "ping": 82
+    },
+    {
+      "name": "🇱🇹 Литва",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "lt.rutrust.org",
+        "server_port": 443,
+        "tag": "🇱🇹 Литва",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "uE24vopxsF-Za2krkvJvatRwrUNfpVN4OOkr7mX2f2I",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "lt.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "lt.rutrust.org",
+      "port": 443,
+      "ping": 101
+    },
+    {
+      "name": "🇸🇬 Сингапур",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "sg.rutrust.org",
+        "server_port": 443,
+        "tag": "🇸🇬 Сингапур",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "WeFxn8ZDZS52IgstG9tFBLUqP5kTGV-EzRFrhKypaS0",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "sg.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "sg.rutrust.org",
+      "port": 443,
+      "ping": 374
+    },
+    {
+      "name": "🇵🇱 Польша",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "pl.rutrust.org",
+        "server_port": 443,
+        "tag": "🇵🇱 Польша",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "rAPC9JnGoW5nn80iXXXDHvyGnV8NSX3sySRuptgkEkE",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "pl.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "pl.rutrust.org",
+      "port": 443,
+      "ping": 108
+    },
+    {
+      "name": "🇫🇷 Франция",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "fr.rutrust.org",
+        "server_port": 443,
+        "tag": "🇫🇷 Франция",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "WeFxn8ZDZS52IgstG9tFBLUqP5kTGV-EzRFrhKypaS0",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "fr.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "fr.rutrust.org",
+      "port": 443,
+      "ping": 90
+    },
+    {
+      "name": "🇨🇭 Швейцария",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "ch.rutrust.org",
+        "server_port": 443,
+        "tag": "🇨🇭 Швейцария",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "X43rZdAP1Eks0_9fw6MpiqGSdAu6jdd_cuQS1Ns3tUA",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "ch.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "ch.rutrust.org",
+      "port": 443,
+      "ping": 102
+    },
+    {
+      "name": "🇺🇸 США",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "us.rutrust.org",
+        "server_port": 443,
+        "tag": "🇺🇸 США",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "wAltTbsltYYeG3taCE1s_2EWlQy3h4osWgji2-tTES4",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "us.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "us.rutrust.org",
+      "port": 443,
+      "ping": 182
+    },
+    {
+      "name": "🇳🇱 Нидерланды | Резерв",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "server": "nl-xh.rugate.org",
+        "server_port": 443,
+        "tag": "🇳🇱 Нидерланды | Резерв",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "cL9WUKdRvJK9DW3UPV9U0pFc_CyLC5k_nxbr1fw5SSw",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "nl-xh.rugate.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "nl-xh.rugate.org",
+      "port": 443,
+      "ping": 84
+    },
+    {
+      "name": "🇳🇱 Нидерланды",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "nl.rutrust.org",
+        "server_port": 443,
+        "tag": "🇳🇱 Нидерланды",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "cL9WUKdRvJK9DW3UPV9U0pFc_CyLC5k_nxbr1fw5SSw",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "nl.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "nl.rutrust.org",
+      "port": 443,
+      "ping": 86
+    },
+    {
+      "name": "🇷🇴 Румыния",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "ro.rutrust.org",
+        "server_port": 443,
+        "tag": "🇷🇴 Румыния",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "-uIEyNp9q7yJLKP8d-qRclbPQYNIHH5LDcfrfP1NyU4",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "ro.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "ro.rutrust.org",
+      "port": 443,
+      "ping": 109
+    },
+    {
+      "name": "🇫🇲 1. LTE | Все операторы",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "se.rutrust.org",
+        "server_port": 443,
+        "tag": "🇫🇲 1. LTE | Все операторы",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "xNJ9W_lSkfN_US9J9eV1e-wREYb6uxcvvnnRcPTAakA",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "se.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "se.rutrust.org",
+      "port": 443,
+      "ping": 83
+    },
+    {
+      "name": "🇫🇲 2. LTE | Все операторы",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "208.ruhost.org",
+        "server_port": 443,
+        "tag": "🇫🇲 2. LTE | Все операторы",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "NFQPwqof8BUdvKsGwLi6buk20uw0TiIr-fTgT26D5g0",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "oneway.rucore.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "208.ruhost.org",
+      "port": 443,
+      "ping": 1136
+    },
+    {
+      "name": "🇫🇲 3. LTE | Все операторы",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "210.ruhost.org",
+        "server_port": 443,
+        "tag": "🇫🇲 3. LTE | Все операторы",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "NFQPwqof8BUdvKsGwLi6buk20uw0TiIr-fTgT26D5g0",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "oneway.rucore.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "210.ruhost.org",
+      "port": 443,
+      "ping": 107
+    },
+    {
+      "name": "🇫🇲 4. LTE | Все операторы",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "194.ruhost.org",
+        "server_port": 443,
+        "tag": "🇫🇲 4. LTE | Все операторы",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "NFQPwqof8BUdvKsGwLi6buk20uw0TiIr-fTgT26D5g0",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "oneway.rucore.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "194.ruhost.org",
+      "port": 443,
+      "ping": 66
+    },
+    {
+      "name": "🇫🇲 6. LTE | Все операторы",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "185.ruhost.org",
+        "server_port": 443,
+        "tag": "🇫🇲 6. LTE | Все операторы",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "NFQPwqof8BUdvKsGwLi6buk20uw0TiIr-fTgT26D5g0",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "oneway.rucore.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "185.ruhost.org",
+      "port": 443,
+      "ping": 53
+    },
+    {
+      "name": "🇫🇲 8. LTE | Все операторы",
+      "node_type": "Outbound",
+      "protocol": "VLESS-Reality",
+      "config": {
+        "flow": "xtls-rprx-vision",
+        "server": "se.rutrust.org",
+        "server_port": 443,
+        "tag": "🇫🇲 8. LTE | Все операторы",
+        "tls": {
+          "enabled": true,
+          "reality": {
+            "enabled": true,
+            "public_key": "xNJ9W_lSkfN_US9J9eV1e-wREYb6uxcvvnnRcPTAakA",
+            "short_id": "9c2378562188c3cb"
+          },
+          "server_name": "se.rutrust.org",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "firefox"
+          }
+        },
+        "type": "vless",
+        "uuid": "5f73712a-f98c-47e0-86a5-25ebbb3c88ed"
+      },
+      "address": "se.rutrust.org",
+      "port": 443,
+      "ping": 71
+    }
+  ]
+}

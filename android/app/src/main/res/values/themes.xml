@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.EroidVpn" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/nordic_bg</item>
+        <item name="android:navigationBarColor">@color/nordic_bg</item>
+        <item name="android:windowBackground">@color/nordic_bg</item>
+    </style>
+</resources>

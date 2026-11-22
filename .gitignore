@@ -1,0 +1,30 @@
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# Rust (PC)
+pc/target/
+target/
+*.pdb
+
+# Android
+android/.gradle/
+android/local.properties
+android/.idea/
+android/.kotlin/
+android/*/build/
+android/app/build/
+android/*.apk
+android/captures/
+.externalNativeBuild/
+.cxx/
